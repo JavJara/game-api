@@ -1,0 +1,12 @@
+runtime: nodejs
+env: flex
+
+# [START configuration]
+endpoints_api_service:
+ # The following values are to be replaced by information from the output of
+ # 'gcloud endpoints services deploy openapi-appengine.yaml' command.
+ name: just-smithy-229015.appspot.com
+ #rollout_strategy: managed
+ # Copyright 2015-2016, Google,
+ config_id: 2019-01-19 0
+# [END configuration]

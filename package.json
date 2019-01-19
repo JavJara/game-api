@@ -9,6 +9,7 @@
   "main": "app.js",
   "dependencies": {
     "express": "^4.12.3",
+    "g": "^2.0.1",
     "pg": "^7.8.0",
     "pg-hstore": "^2.3.2",
     "sequelize": "^4.42.0",
